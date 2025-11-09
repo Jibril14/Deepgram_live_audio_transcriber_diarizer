@@ -12,6 +12,7 @@ DEEPGRAM_API_KEY = os.getenv("DEEPGRAM_API_KEY")
 DEEPGRAM_URL = (
     "wss://api.deepgram.com/v1/listen?"
     "encoding=linear16&sample_rate=16000&channels=1"
+    "&multichannel=true"
     "&model=nova-2"
     "&diarize=true"
     "&punctuate=true"
