@@ -33,7 +33,6 @@ Deepgram API key
 (Get one at Deepgram Dashboard)
 
 ## Running the Project
-
 - pip install -r requirements.txt
-python main_asynchronous.py # for pre-recorded and live audio stream
-python main_asynchronous.py # for pre-recorded audio
+- python main_asynchronous.py # for pre-recorded and live audio stream
+- python main_asynchronous.py # for pre-recorded audio
